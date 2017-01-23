@@ -6,7 +6,7 @@ phases:
   build: 
     commands: 
       - "echo Build started on `date`"
-      - "node server.js &"
+      
   install: 
     commands: 
       - "echo \"installing node packages\""
@@ -15,7 +15,7 @@ phases:
     commands: 
       - "echo Build completed on `date`"
       - "echo \"in post build environment\""
-      - "echo gulp"
+      - "gulp"
   pre_build: 
     commands: 
       - "echo Nothing to do in the pre_build phase..."
