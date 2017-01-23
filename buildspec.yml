@@ -1,0 +1,24 @@
+version: 0.1
+
+
+phases:
+  install:
+    commands:
+      - echo "installing node packages"
+	  - npm install
+    
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Build started on `date`
+      - node server.js &
+  post_build:
+    commands:
+      - echo Build completed on `date`
+	  - echo "in post build environment"
+	  - echo gulp
+artifacts:
+  files:
+    - output_artifacts
