@@ -1,11 +1,15 @@
 --- 
 artifacts: 
-  discard-paths: true
+  discard-paths: false
   files: 
-    - "./*"
-    - "css/*"
-    - "public"
-    - "vendor"
+    - ./*
+    - css/*
+    - ./public
+    - ./vendor
+  folders: 
+    - public
+    - vendor
+    - css
 phases: 
   build: 
     commands: 
@@ -22,6 +26,7 @@ phases:
       - "echo Build completed on `date`"
       - "echo \"in post build environment\""
       - gulp
+      - $CODEBUILD_SRC_DIR
   pre_build: 
     commands: 
       - "echo Nothing to do in the pre_build phase..."
