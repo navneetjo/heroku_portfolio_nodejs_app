@@ -26,7 +26,7 @@ phases:
       - "echo Build completed on `date`"
       - "echo \"in post build environment\""
       - gulp
-      - $CODEBUILD_SRC_DIR
+      - echo $CODEBUILD_SRC_DIR
   pre_build: 
     commands: 
       - "echo Nothing to do in the pre_build phase..."
