@@ -3,8 +3,8 @@ artifacts:
   discard-paths: false
   files: 
     - ./*
-    - css/*
-    - public/*
+    - css/**/*
+    - public/**/*
     - vendor/*
 
 phases: 
