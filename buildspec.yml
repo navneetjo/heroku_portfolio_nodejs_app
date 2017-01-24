@@ -1,8 +1,17 @@
 --- 
 artifacts: 
+  discard-paths: true
   files: 
-    - "."
-  discard-paths: yes
+    - "./*"
+    - "css/*"
+    - "public/css/*"
+    - "public/img/*"
+    - "public/js/*"
+    - "public/vendor/*"
+    - "public/indecx.html"
+    - "vendor/jquery/*"
+    - "vendor/bootstrap/**/*"
+    - "vendor/font-awesome/*"
 phases: 
   build: 
     commands: 
