@@ -1,7 +1,7 @@
 --- 
 artifacts: 
   files: 
-    - gulp.js
+    - "./*"
   discard-paths: yes
 phases: 
   build: 
