@@ -5,7 +5,7 @@ artifacts:
     - ./*
     - css/**/*
     - public/**/*
-    - vendor/*
+    - vendor/**/*
 
 phases: 
   build: 
