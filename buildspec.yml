@@ -4,12 +4,9 @@ artifacts:
   files: 
     - ./*
     - css/*
-    - ./public
-    - ./vendor
-  folders: 
-    - public
-    - vendor
-    - css
+    - public/*
+    - vendor/*
+
 phases: 
   build: 
     commands: 
