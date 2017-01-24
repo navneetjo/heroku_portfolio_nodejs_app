@@ -4,14 +4,8 @@ artifacts:
   files: 
     - "./*"
     - "css/*"
-    - "public/css/*"
-    - "public/img/*"
-    - "public/js/*"
-    - "public/vendor/*"
-    - "public/indecx.html"
-    - "vendor/jquery/*"
-    - "vendor/bootstrap/**/*"
-    - "vendor/font-awesome/*"
+    - "public"
+    - "vendor"
 phases: 
   build: 
     commands: 
