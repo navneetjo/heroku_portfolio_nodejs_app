@@ -1,0 +1,20 @@
+--- 
+BeforeInstall: 
+  - location: scripts/install.sh
+    runas: root
+    timeout: 1200
+ApplicationStart: 
+  - location: scripts/start.sh
+    runas: ec2-user
+    timeout: 60
+Version: 0.0
+destination: /home/ec2-user/portfolioAppDeploy
+files: 
+  - source: /
+hooks: ~
+os: linux
+permissions: 
+  - group: ec2-user
+    object: /home/ec2-user
+    owner: ec2-user
+    pattern: "**"
