@@ -1,7 +1,7 @@
 --- 
 ApplicationStart: 
   - 
-    location: scripts/start.sh
+    location: start.sh
     runas: root
     timeout: 60
 BeforeInstall: 
