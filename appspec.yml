@@ -20,4 +20,7 @@ permissions:
     object: /home/ec2-user
     owner: ec2-user
     pattern: "**"
+    type: 
+      - directory
+      - file
 version: 0.0

@@ -1,1 +1,2 @@
-node server.js
+#!/usr/bin/env bash
+node ../server.js
