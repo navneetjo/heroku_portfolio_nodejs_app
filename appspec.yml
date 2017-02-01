@@ -1,4 +1,5 @@
 --- 
+Version: 0.0
 BeforeInstall: 
   - location: scripts/install.sh
     runas: root
@@ -7,7 +8,6 @@ ApplicationStart:
   - location: scripts/start.sh
     runas: root
     timeout: 60
-Version: 0.0
 destination: /home/ec2-user/portfolioAppDeploy
 files: 
   - source: /
