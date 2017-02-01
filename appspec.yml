@@ -17,6 +17,7 @@ os: linux
 permissions: 
   - 
     group: ec2-user
+    mode: 744
     object: /home/ec2-user
     owner: ec2-user
     pattern: "**"
