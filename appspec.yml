@@ -6,7 +6,7 @@ ApplicationStart:
     timeout: 60
 BeforeInstall: 
   - 
-    location: scripts/install.sh
+    location: install.sh
     runas: root
     timeout: 1200
 files: 
