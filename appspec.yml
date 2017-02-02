@@ -1,17 +1,17 @@
 --- 
 ApplicationStart: 
   - 
-    location: start.sh
+    location: ./start.sh
     runas: root
-    timeout: 60
+    timeout: 1200
 BeforeInstall: 
   - 
-    location: install.sh
+    location: ./install.sh
     runas: root
     timeout: 1200
 files: 
   - 
-    destination: /home/ec2-user
+    destination: /home/ec2-user/myapp
     source: /
 os: linux
 permissions: 
