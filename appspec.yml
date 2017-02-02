@@ -2,12 +2,12 @@
 ApplicationStart: 
   - 
     location: ./start.sh
-    runas: roott
+    runas: root
     timeout: 1800
 BeforeInstall: 
   - 
     location: ./install.sh
-    runas: ec2-user
+    runas: root
     timeout: 1600
 files: 
   - 
@@ -16,10 +16,6 @@ files:
 os: linux
 permissions: 
   - 
-    acls: 
-      - "d:u::rwx"
-      - "d:g::rwx"
-      - "d:o::rwx"
     group: ec2-user
     mode: 777
     object: /home/ec2-user/myapp
