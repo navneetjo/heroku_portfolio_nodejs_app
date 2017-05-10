@@ -46,5 +46,5 @@ app.use(express.static(__dirname + '/public'));
 
 
 
-app.listen(process.env.PORT || 8090);
-console.log("Express server listening on port 8090");
+app.listen(process.env.PORT || 3000);
+console.log("Express server listening on port 3000");
