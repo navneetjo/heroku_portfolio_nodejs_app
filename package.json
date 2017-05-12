@@ -3,7 +3,7 @@
  "name": "node_sample_app",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
+  "script": {
     "start": "npm install"
   },
   "dependencies": {
