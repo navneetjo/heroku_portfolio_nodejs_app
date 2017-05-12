@@ -1,8 +1,0 @@
-{
-  "name": "Start on Heroku: Node.js",
-  "description": "Portfolio application is running by using nodejs",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
-}
