@@ -4,7 +4,7 @@
   "version": "3.3.7+1",
   "homepage": "http://startbootstrap.com/template-overviews/freelancer",
   "author": "Start Bootstrap",
-   "scripts": {
+   "script": {
       "start": "npm install"
   },
   "license": {
