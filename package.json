@@ -5,8 +5,7 @@
   "homepage": "http://startbootstrap.com/template-overviews/freelancer",
   "author": "Start Bootstrap",
    "scripts": {
-    "start": "npm install",
-	"run":"node Server.js"
+    "start": "npm install"
   },
   "license": {
     "type": "MIT",
