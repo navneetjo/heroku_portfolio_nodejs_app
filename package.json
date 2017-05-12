@@ -1,20 +1,16 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
-   "script": {
-      "start": "npm install"
+
+ "name": "node_sample_app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm install"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
-  "devDependencies": {
-    "bootstrap": "*",
+  "dependencies": {
+     "bootstrap": "*",
     "browser-sync": "*",
     "express": "*",
+    "express-generator": "^4.15.0",
     "font-awesome": "*",
     "gulp": "*",
     "gulp-clean-css": "*",
@@ -23,12 +19,8 @@
     "gulp-rename": "*",
     "gulp-uglify": "*",
     "jquery": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
-  }
+
 }
 
-
-
+ 
+  
