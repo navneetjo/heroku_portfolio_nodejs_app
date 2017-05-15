@@ -20,7 +20,8 @@
     "gulp-less": "*",
     "gulp-rename": "*",
     "gulp-uglify": "*",
-    "jquery": "*"
+    "jquery": "*",
+	 "pg": "6.x"
 
 }
 }
