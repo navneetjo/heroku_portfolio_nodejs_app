@@ -3,11 +3,13 @@
  "name": "node_sample_app",
   "version": "0.0.0",
   "private": true,
+  "main": "app.js",
   "scripts": {
     "start": "npm install"
   },
   "dependencies": {
      "bootstrap": "*",
+	  "body-parser": "*",
     "browser-sync": "*",
     "express": "*",
     "express-generator": "^4.15.0",
